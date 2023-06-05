@@ -31,5 +31,5 @@ with open(fasta_file, "r") as f:
         accession = header.split("|")[3]
 
         # write the sequence to a text file with the accession number as the output file name
-        with open(f"{accession}.txt", "w") as out_file:
+        with open(f"{accession}.fasta", "w") as out_file:
             out_file.write(f">{header}\n{seq}")
