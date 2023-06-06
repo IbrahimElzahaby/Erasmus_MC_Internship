@@ -5,7 +5,7 @@ This project aims to analyze large-scale genomic datasets (441,120 RefSeq plasmi
 In this [directory](https://github.com/IbrahimElzahaby/Erasmus_MC_Internship/tree/1f1734ae406ae491c1f0a07d1fbf759891fded06/original_data) that contains the original data of our project, we [fetched](https://github.com/IbrahimElzahaby/Erasmus_MC_Internship/blob/1f1734ae406ae491c1f0a07d1fbf759891fded06/original_data/retrieve_fasta.py) 66,147 fasta records and this [script](https://github.com/IbrahimElzahaby/Erasmus_MC_Internship/blob/1f1734ae406ae491c1f0a07d1fbf759891fded06/original_data/progress_fasta.py) used to continue fetching the remaining sequences without fetching errors with a total fasta records of 441,120 files.
 
 
-##The pipeline workflow underlying according to the following structure:
+## The pipeline workflow underlying according to the following structure:
 
 ### Identify Inc types
 
